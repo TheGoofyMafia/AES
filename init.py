@@ -2,25 +2,46 @@ import random
 from Crypto.Cipher import AES
 #from Crypto.Cipher import adec
 import binascii
+from Padding import pad, unpad
+
 import os
 #key = ''.join(chr(random.randint(0, 0xFF)) for i in range(16))
-key = os.urandom(16)
-print (key)
 #print('key', [x for x in key])
 # prints
-#key ['+', 'Y', '\xd1', '\x9d', '\xa0', '\xb5', '\x02', '\xbf', ';', '\x15', '\xef', '\xd5', '}', '\t', ']', '9']
 #iv = ''.join(chr(random.randint(0, 0xFF)) for i in range(16))
-iv = os.urandom(16)
 #print('iv', [x for x in iv])
-
+key = os.urandom(16)
+iv = os.urandom(16)
+BS =16
+# def pad:
+#     pad = lambda d: d + (BS - len(d) % BS) * chr(BS - len(d) % BS)
 # ENCRYPTION
-aes = AES.new(key, AES.MODE_CBC, iv)
-data = 'hello world 1234' # <- 16 bytes OR add buffer to make it 16 bytes
-encd = aes.encrypt(data)
-print (encd)
+def encrypt():
+    aes = AES.new(key, AES.MODE_CBC, iv)
+    print('#####################'
+          '                     '
+          'PLEASE INPUT ONLY 16 BYTES STRING'
+          '                     '
+          '#####################')
+    global data
+    data = input() # <- 16 bytes OR add buffer to make it 16 bytes
+    encd = aes.encrypt(pad(data, 16))
+    return encd
 
 # DECRYPTION
+def decrypt(encd):
+    aes = AES.new(key, AES.MODE_CBC, iv)
+    global decd
+    decd = aes.decrypt(encd)
+    print (decd)
 
-aes = AES.new(key, AES.MODE_CBC, iv)
-decd = aes.decrypt(encd)
-print (decd)
+
+encd = encrypt()
+decrypt(encd)
+
+# Check for verification
+
+if data == decd:
+    print("Working with success")
+else:
+    print("Try again")
