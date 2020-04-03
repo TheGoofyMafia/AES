@@ -24,7 +24,7 @@ def encrypt():
           '                     '
           '#####################')
     global data
-    data = input() # <- 16 bytes OR add buffer to make it 16 bytes
+    data = input() #<- 16 bytes OR add buffer to make it 16 bytes
     encd = aes.encrypt(pad(data, 16))
     return encd
 
@@ -32,8 +32,8 @@ def encrypt():
 def decrypt(encd):
     aes = AES.new(key, AES.MODE_CBC, iv)
     global decd
-    decd = aes.decrypt(encd)
-    print (decd)
+    decd = (unpad(aes.decrypt(encd), 16))
+    decd = decd.decode("utf-8")
 
 
 encd = encrypt()

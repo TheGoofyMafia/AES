@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c55e080f-b6cc-4237-be85-c308b2771168" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Padding.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Padding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Padding.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/init.py" beforeDir="false" afterPath="$PROJECT_DIR$/init.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,22 +75,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1379" height="268" key="GridCell.Tab.0.bottom" timestamp="1585927402526">
+    <state width="1379" height="268" key="GridCell.Tab.0.bottom" timestamp="1585941756059">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1379" height="268" key="GridCell.Tab.0.bottom/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585927402526" />
-    <state width="1379" height="268" key="GridCell.Tab.0.center" timestamp="1585927402525">
+    <state width="1379" height="268" key="GridCell.Tab.0.bottom/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585941756059" />
+    <state width="1379" height="268" key="GridCell.Tab.0.center" timestamp="1585941756057">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1379" height="268" key="GridCell.Tab.0.center/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585927402525" />
-    <state width="1379" height="268" key="GridCell.Tab.0.left" timestamp="1585927402524">
+    <state width="1379" height="268" key="GridCell.Tab.0.center/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585941756057" />
+    <state width="1379" height="268" key="GridCell.Tab.0.left" timestamp="1585941756057">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1379" height="268" key="GridCell.Tab.0.left/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585927402524" />
-    <state width="1379" height="268" key="GridCell.Tab.0.right" timestamp="1585927402526">
+    <state width="1379" height="268" key="GridCell.Tab.0.left/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585941756057" />
+    <state width="1379" height="268" key="GridCell.Tab.0.right" timestamp="1585941756058">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1379" height="268" key="GridCell.Tab.0.right/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585927402526" />
+    <state width="1379" height="268" key="GridCell.Tab.0.right/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585941756058" />
     <state width="1379" height="330" key="GridCell.Tab.1.bottom" timestamp="1585925243351">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -119,5 +119,9 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="748" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585926793525" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1585936546808">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585936546808" />
   </component>
 </project>
