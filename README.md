@@ -8,6 +8,6 @@ key is the standard encryption 16, 24 or 32 byte key.
 
 The text accordingly also has to be in the said size i.e 16,24 or 32 byte. So we need to add a buffer if the size of the text is not in the said format.
 
-# CREATE PAD BUFFER
+# ~~CREATE PAD BUFFER~~ - DONE
 # IMPLEMENT KEY SIZE(16,24,32) ACCORDING TO THE TEXT INPUT FOR ENCRYPTION
 # CREATE AN ENGINE FOR KEY GENERATION
