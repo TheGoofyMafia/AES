@@ -1,14 +1,11 @@
 from Crypto.Cipher import AES
-from Padding import pad
-from init import key,iv
-from Crypto.Cipher import AES
 
 from Padding import pad
 from init import key, iv
 
 
 def Encrypt():
-    aes = AES.new(key, AES.MODE_CBC, iv)
+    aes = AES.new(key, AES.MODE_CBC, iv) # This is the encryption cipher
     print('#####################'
           '                     '
           'PLEASE INPUT ONLY 16 BYTES STRING'

@@ -1,5 +1,4 @@
 from Crypto.Cipher import AES
-from Crypto.Cipher import AES
 
 from Encrypt import encd
 from Padding import unpad
@@ -7,7 +6,7 @@ from init import key, iv
 
 
 def decrypt(encd):
-    aes = AES.new(key, AES.MODE_CBC, iv)
+    aes = AES.new(key, AES.MODE_CBC, iv) # encryption Cipher
     global decd
     decd = (unpad(aes.decrypt(encd), 16))
     decd = decd.decode("utf-8")
