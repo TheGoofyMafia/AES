@@ -1,10 +1,9 @@
-import random
 from Crypto.Cipher import AES
-import binascii
-from Padding import pad, unpad
-import os
-from init import key,iv
+from Crypto.Cipher import AES
+
 from Encrypt import encd
+from Padding import unpad
+from init import key, iv
 
 
 def decrypt(encd):

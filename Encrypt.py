@@ -1,9 +1,11 @@
-import random
 from Crypto.Cipher import AES
-import binascii
-from Padding import pad, unpad
-import os
+from Padding import pad
 from init import key,iv
+from Crypto.Cipher import AES
+
+from Padding import pad
+from init import key, iv
+
 
 def Encrypt():
     aes = AES.new(key, AES.MODE_CBC, iv)

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c55e080f-b6cc-4237-be85-c308b2771168" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Decrypt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Encrypt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="c55e080f-b6cc-4237-be85-c308b2771168" name="Default Changelist" comment="Upd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.py" beforeDir="false" afterPath="$PROJECT_DIR$/init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decrypt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Decrypt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encrypt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Encrypt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.Encrypt">
     <configuration name="Decrypt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AES" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,9 +121,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Encrypt" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.Decrypt" />
-        <item itemvalue="Python.Encrypt" />
         <item itemvalue="Python.init" />
       </list>
     </recent_temporary>
@@ -143,39 +141,46 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1379" height="268" key="GridCell.Tab.0.bottom" timestamp="1585943850580">
+    <state x="592" y="120" key="CommitChangelistDialog2" timestamp="1585990061544">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state x="592" y="120" key="CommitChangelistDialog2/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1585990061544" />
+    <state width="1379" height="268" key="GridCell.Tab.0.bottom" timestamp="1585944481742">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1379" height="268" key="GridCell.Tab.0.bottom/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585943850580" />
-    <state width="1379" height="268" key="GridCell.Tab.0.center" timestamp="1585943850578">
+    <state width="1379" height="268" key="GridCell.Tab.0.bottom/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481742" />
+    <state width="1379" height="268" key="GridCell.Tab.0.center" timestamp="1585944481742">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1379" height="268" key="GridCell.Tab.0.center/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585943850578" />
-    <state width="1379" height="268" key="GridCell.Tab.0.left" timestamp="1585943850578">
+    <state width="1379" height="268" key="GridCell.Tab.0.center/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481742" />
+    <state width="1379" height="268" key="GridCell.Tab.0.left" timestamp="1585944481741">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1379" height="268" key="GridCell.Tab.0.left/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585943850578" />
-    <state width="1379" height="268" key="GridCell.Tab.0.right" timestamp="1585943850579">
+    <state width="1379" height="268" key="GridCell.Tab.0.left/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481741" />
+    <state width="1379" height="268" key="GridCell.Tab.0.right" timestamp="1585944481742">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1379" height="268" key="GridCell.Tab.0.right/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585943850579" />
-    <state width="1379" height="330" key="GridCell.Tab.1.bottom" timestamp="1585942585045">
+    <state width="1379" height="268" key="GridCell.Tab.0.right/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481742" />
+    <state width="1379" height="330" key="GridCell.Tab.1.bottom" timestamp="1585944481736">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1379" height="330" key="GridCell.Tab.1.bottom/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585942585045" />
-    <state width="1379" height="330" key="GridCell.Tab.1.center" timestamp="1585942585043">
+    <state width="1379" height="330" key="GridCell.Tab.1.bottom/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481736" />
+    <state width="1379" height="330" key="GridCell.Tab.1.center" timestamp="1585944481736">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1379" height="330" key="GridCell.Tab.1.center/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585942585043" />
-    <state width="1379" height="330" key="GridCell.Tab.1.left" timestamp="1585942585042">
+    <state width="1379" height="330" key="GridCell.Tab.1.center/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481736" />
+    <state width="1379" height="330" key="GridCell.Tab.1.left" timestamp="1585944481735">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1379" height="330" key="GridCell.Tab.1.left/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585942585042" />
-    <state width="1379" height="330" key="GridCell.Tab.1.right" timestamp="1585942585044">
+    <state width="1379" height="330" key="GridCell.Tab.1.left/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481735" />
+    <state width="1379" height="330" key="GridCell.Tab.1.right" timestamp="1585944481736">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1379" height="330" key="GridCell.Tab.1.right/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585942585044" />
+    <state width="1379" height="330" key="GridCell.Tab.1.right/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481736" />
     <state x="468" y="157" key="SettingsEditor" timestamp="1585927025809">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -184,9 +189,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="638" y="350" key="com.intellij.ide.util.TipDialog/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585922289374" />
-    <state x="748" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585926793525">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="748" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585996534785">
+      <screen x="0" y="23" width="1920" height="990" />
     </state>
+    <state x="748" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1585996534785" />
     <state x="748" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585926793525" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1585936546808">
       <screen x="0" y="23" width="1920" height="1057" />
