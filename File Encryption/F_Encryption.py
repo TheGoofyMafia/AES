@@ -15,7 +15,9 @@ with open('test.txt') as fin:
         aes = AES.new(key, AES.MODE_CBC, iv)
         with open('encfile.txt', 'wb') as fout:
             # fout.write(iv)
+            print(data)
             encd = aes.encrypt(pad(data, 16))
+
             fout.write(encd)
             # fout.write(struct.pack('<Q', fsz))
 
