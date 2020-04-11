@@ -56,7 +56,8 @@ def pad(data_to_pad, block_size, style='pkcs7'):
         padding = bchr(128) + bchr(0)*(padding_len-1)
     else:
         raise ValueError("Unknown padding style")
-    return bytes(data_to_pad, encoding='utf8') + (padding)
+    original = data_to_pad.encode("utf-8")
+    return (original) + (padding)
 
 def unpad(padded_data, block_size, style='pkcs7'):
     """Remove standard padding.

@@ -1,7 +1,8 @@
 from Crypto.Cipher import AES
-from init import *
+from init import key,iv
+import os
 import struct
-from Padding import pad
+from Padding import pad,unpad
 sz = 2048
 fsz = os.path.getsize('/Users/goofy/Desktop/test.txt')
 with open('test.txt') as fin:
@@ -17,13 +18,16 @@ with open('test.txt') as fin:
             # fout.write(iv)
             print(data)
             encd = aes.encrypt(pad(data, 16))
+            print(encd)
+            #cd)
+            #
 
             fout.write(encd)
             # fout.write(struct.pack('<Q', fsz))
 
-# with open('/Users/goofy/Desktop/encfile', 'wb') as fout:
-#     fout.write(struct.pack('<Q', fsz))
-#     fout.write(iv)
+        # with open('/Users/goofy/Desktop/encfile.txt', 'wb') as fout:
+        #      fout.write(struct.pack('<Q', fsz))
+             #fout.write(iv)
 
 # if data == decd:
 #     print("Working with success")
