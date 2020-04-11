@@ -5,9 +5,10 @@ import struct
 from Padding import pad,unpad
 sz = 2048
 fsz = os.path.getsize('/Users/goofy/Desktop/test.txt')
-with open('test.txt') as fin:
+with open('test.txt') as finput:
     while True:
-        data = fin.read(sz)
+        global data
+        data = finput.read(sz)
         n = len(data)
         if n == 0:
             break
@@ -16,9 +17,7 @@ with open('test.txt') as fin:
         aes = AES.new(key, AES.MODE_CBC, iv)
         with open('encfile.txt', 'wb') as fout:
             # fout.write(iv)
-            print(data)
             encd = aes.encrypt(pad(data, 16))
-            print(encd)
             #cd)
             #
 
