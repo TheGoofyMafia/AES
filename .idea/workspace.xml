@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c55e080f-b6cc-4237-be85-c308b2771168" name="Default Changelist" comment="Upd">
+    <list default="true" id="c55e080f-b6cc-4237-be85-c308b2771168" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SFTP/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Decrypt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Decrypt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Encrypt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Encrypt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,19 +21,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1a28KDm5W0QGX4jPfxsP3ArNUv4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/File Encryption" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Encrypt">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/S_Encryption" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/File Encryption" />
+      <recent name="$PROJECT_DIR$/S_Encryption" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Verification">
     <configuration name="Decrypt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AES" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -43,11 +55,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String Encryption" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Decrypt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String Encryption/Decrypt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -56,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Encrypt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="F_Decryption" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AES" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,11 +76,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/File Encryption" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Encrypt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/File Encryption/F_Decryption.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="F_Encryption" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AES" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,11 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/File Encryption" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/init.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/File Encryption/F_Encryption.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Padding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AES" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,11 +118,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/File Encryption" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/File Encryption/Padding.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Verification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AES" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/File Encryption" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/File Encryption/Verification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,10 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Encrypt" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.Verification" />
+        <item itemvalue="Python.F_Decryption" />
+        <item itemvalue="Python.F_Encryption" />
         <item itemvalue="Python.Decrypt" />
-        <item itemvalue="Python.init" />
+        <item itemvalue="Python.Padding" />
       </list>
     </recent_temporary>
   </component>
@@ -139,51 +173,86 @@
       <option name="presentableId" value="Default" />
       <updated>1585922263060</updated>
     </task>
+    <task id="LOCAL-00001" summary="Daily Update">
+      <created>1585996550084</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585996550084</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Daily Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Daily Update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="654" y="386" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586020058866">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state x="654" y="386" key="#com.intellij.fileTypes.FileTypeChooser/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1586020058866" />
     <state x="592" y="120" key="CommitChangelistDialog2" timestamp="1585996549479">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
     <state x="592" y="120" key="CommitChangelistDialog2/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1585996549479" />
-    <state width="1379" height="268" key="GridCell.Tab.0.bottom" timestamp="1585944481742">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1899" height="260" key="GridCell.Tab.0.bottom" timestamp="1586646081680">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
+    <state width="1899" height="260" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586646081680" />
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1586096726312" />
+    <state width="1379" height="268" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.990@1920.23.1920.1057" timestamp="1586036975535" />
     <state width="1379" height="268" key="GridCell.Tab.0.bottom/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481742" />
-    <state width="1379" height="268" key="GridCell.Tab.0.center" timestamp="1585944481742">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1899" height="260" key="GridCell.Tab.0.center" timestamp="1586646081679">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
+    <state width="1899" height="260" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586646081679" />
+    <state width="1899" height="268" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1586096726310" />
+    <state width="1379" height="268" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.990@1920.23.1920.1057" timestamp="1586036975533" />
     <state width="1379" height="268" key="GridCell.Tab.0.center/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481742" />
-    <state width="1379" height="268" key="GridCell.Tab.0.left" timestamp="1585944481741">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1899" height="260" key="GridCell.Tab.0.left" timestamp="1586646081678">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
+    <state width="1899" height="260" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586646081678" />
+    <state width="1899" height="268" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1586096726304" />
+    <state width="1379" height="268" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.990@1920.23.1920.1057" timestamp="1586036975533" />
     <state width="1379" height="268" key="GridCell.Tab.0.left/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481741" />
-    <state width="1379" height="268" key="GridCell.Tab.0.right" timestamp="1585944481742">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1899" height="260" key="GridCell.Tab.0.right" timestamp="1586646081679">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
+    <state width="1899" height="260" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586646081679" />
+    <state width="1899" height="268" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1586096726310" />
+    <state width="1379" height="268" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.990@1920.23.1920.1057" timestamp="1586036975534" />
     <state width="1379" height="268" key="GridCell.Tab.0.right/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481742" />
-    <state width="1379" height="330" key="GridCell.Tab.1.bottom" timestamp="1585944481736">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1899" height="335" key="GridCell.Tab.1.bottom" timestamp="1586624104094">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
+    <state width="1899" height="335" key="GridCell.Tab.1.bottom/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586624104094" />
+    <state width="1379" height="330" key="GridCell.Tab.1.bottom/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1586027156055" />
     <state width="1379" height="330" key="GridCell.Tab.1.bottom/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481736" />
-    <state width="1379" height="330" key="GridCell.Tab.1.center" timestamp="1585944481736">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1899" height="335" key="GridCell.Tab.1.center" timestamp="1586624104092">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
+    <state width="1899" height="335" key="GridCell.Tab.1.center/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586624104092" />
+    <state width="1379" height="330" key="GridCell.Tab.1.center/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1586027156053" />
     <state width="1379" height="330" key="GridCell.Tab.1.center/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481736" />
-    <state width="1379" height="330" key="GridCell.Tab.1.left" timestamp="1585944481735">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1899" height="335" key="GridCell.Tab.1.left" timestamp="1586624104092">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
+    <state width="1899" height="335" key="GridCell.Tab.1.left/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586624104091" />
+    <state width="1379" height="330" key="GridCell.Tab.1.left/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1586027156053" />
     <state width="1379" height="330" key="GridCell.Tab.1.left/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481735" />
-    <state width="1379" height="330" key="GridCell.Tab.1.right" timestamp="1585944481736">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1899" height="335" key="GridCell.Tab.1.right" timestamp="1586624104093">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
+    <state width="1899" height="335" key="GridCell.Tab.1.right/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586624104093" />
+    <state width="1379" height="330" key="GridCell.Tab.1.right/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1586027156054" />
     <state width="1379" height="330" key="GridCell.Tab.1.right/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481736" />
-    <state x="468" y="157" key="SettingsEditor" timestamp="1585927025809">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="2388" y="157" key="SettingsEditor" timestamp="1586560094335">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
+    <state x="2388" y="157" key="SettingsEditor/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586560094335" />
     <state x="468" y="157" key="SettingsEditor/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585927025809" />
     <state x="638" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1585922289374">
       <screen x="0" y="23" width="1920" height="1057" />
@@ -194,9 +263,14 @@
     </state>
     <state x="748" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1585996534785" />
     <state x="748" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585926793525" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1585936546808">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="2472" y="139" width="816" height="825" key="find.popup" timestamp="1586556387665">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
+    <state x="2472" y="139" width="816" height="825" key="find.popup/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586556387665" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1586644436662">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586644436662" />
     <state width="600" height="424" key="javadoc.popup/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585936546808" />
   </component>
 </project>
