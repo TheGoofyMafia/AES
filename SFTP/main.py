@@ -5,7 +5,7 @@ myPassword = "12345"
 
 with pysftp.Connection(host=myHostname, username=myUsername, password=myPassword) as sftp:
     print
-    "Connection succesfully stablished ... "
+    "Connection successfully established ... "
 
     # Switch to a remote directory
     sftp.cwd('/var/www/vhosts/')
