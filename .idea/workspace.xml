@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c55e080f-b6cc-4237-be85-c308b2771168" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/File Encryption/big_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/File Encryption/F_Decryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/File Encryption/F_Decryption.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/File Encryption/F_Encryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/File Encryption/F_Encryption.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File Encryption/Verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/File Encryption/Verification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File Encryption/big_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/File Encryption/big_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/File Encryption/encfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/File Encryption/encfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File Encryption/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/File Encryption/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/File Encryption/verfile" beforeDir="false" afterPath="$PROJECT_DIR$/File Encryption/verfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,40 +201,40 @@
       <screen x="0" y="23" width="1920" height="990" />
     </state>
     <state x="592" y="120" key="CommitChangelistDialog2/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1585996549479" />
-    <state width="1899" height="276" key="GridCell.Tab.0.bottom" timestamp="1587134619381">
+    <state width="1899" height="276" key="GridCell.Tab.0.bottom" timestamp="1587137802120">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.bottom/1920.23.1920.1006/0.23.1920.1057@0.23.1920.1057" timestamp="1587134619381" />
+    <state width="1899" height="276" key="GridCell.Tab.0.bottom/1920.23.1920.1006/0.23.1920.1057@0.23.1920.1057" timestamp="1587137802120" />
     <state width="1899" height="260" key="GridCell.Tab.0.bottom/1920.23.1920.1006/0.23.1920.1057@1920.23.1920.1006" timestamp="1586715324805" />
     <state width="1899" height="260" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.1006@0.23.1920.1006" timestamp="1587071044077" />
     <state width="1899" height="260" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586646081680" />
     <state width="1899" height="268" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1586096726312" />
     <state width="1379" height="268" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.990@1920.23.1920.1057" timestamp="1586036975535" />
     <state width="1379" height="268" key="GridCell.Tab.0.bottom/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481742" />
-    <state width="1899" height="276" key="GridCell.Tab.0.center" timestamp="1587134619380">
+    <state width="1899" height="276" key="GridCell.Tab.0.center" timestamp="1587137802119">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.center/1920.23.1920.1006/0.23.1920.1057@0.23.1920.1057" timestamp="1587134619380" />
+    <state width="1899" height="276" key="GridCell.Tab.0.center/1920.23.1920.1006/0.23.1920.1057@0.23.1920.1057" timestamp="1587137802119" />
     <state width="1899" height="260" key="GridCell.Tab.0.center/1920.23.1920.1006/0.23.1920.1057@1920.23.1920.1006" timestamp="1586715324804" />
     <state width="1899" height="260" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.1006@0.23.1920.1006" timestamp="1587071044076" />
     <state width="1899" height="260" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586646081679" />
     <state width="1899" height="268" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1586096726310" />
     <state width="1379" height="268" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.990@1920.23.1920.1057" timestamp="1586036975533" />
     <state width="1379" height="268" key="GridCell.Tab.0.center/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481742" />
-    <state width="1899" height="276" key="GridCell.Tab.0.left" timestamp="1587134619379">
+    <state width="1899" height="276" key="GridCell.Tab.0.left" timestamp="1587137802119">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.left/1920.23.1920.1006/0.23.1920.1057@0.23.1920.1057" timestamp="1587134619379" />
+    <state width="1899" height="276" key="GridCell.Tab.0.left/1920.23.1920.1006/0.23.1920.1057@0.23.1920.1057" timestamp="1587137802119" />
     <state width="1899" height="260" key="GridCell.Tab.0.left/1920.23.1920.1006/0.23.1920.1057@1920.23.1920.1006" timestamp="1586715324804" />
     <state width="1899" height="260" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.1006@0.23.1920.1006" timestamp="1587071044075" />
     <state width="1899" height="260" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586646081678" />
     <state width="1899" height="268" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1586096726304" />
     <state width="1379" height="268" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.990@1920.23.1920.1057" timestamp="1586036975533" />
     <state width="1379" height="268" key="GridCell.Tab.0.left/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585944481741" />
-    <state width="1899" height="276" key="GridCell.Tab.0.right" timestamp="1587134619380">
+    <state width="1899" height="276" key="GridCell.Tab.0.right" timestamp="1587137802120">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.right/1920.23.1920.1006/0.23.1920.1057@0.23.1920.1057" timestamp="1587134619380" />
+    <state width="1899" height="276" key="GridCell.Tab.0.right/1920.23.1920.1006/0.23.1920.1057@0.23.1920.1057" timestamp="1587137802120" />
     <state width="1899" height="260" key="GridCell.Tab.0.right/1920.23.1920.1006/0.23.1920.1057@1920.23.1920.1006" timestamp="1586715324805" />
     <state width="1899" height="260" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.1006@0.23.1920.1006" timestamp="1587071044076" />
     <state width="1899" height="260" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586646081679" />
@@ -291,16 +289,5 @@
     </state>
     <state width="600" height="424" key="javadoc.popup/1920.23.1920.1057/0.23.1920.1006@1920.23.1920.1057" timestamp="1586644436662" />
     <state width="600" height="424" key="javadoc.popup/1920.23.1920.990/0.23.1920.1057@0.23.1920.1057" timestamp="1585936546808" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/File Encryption/F_Encryption.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
