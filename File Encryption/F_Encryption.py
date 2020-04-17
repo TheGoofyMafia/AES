@@ -5,10 +5,10 @@ import struct
 from Padding import pad,unpad
 sz = 2048
 fsz = os.path.getsize('/Users/goofy/Desktop/test.txt')
-with open('test.txt') as finput:
+with open('big_test.txt') as finput:
     while True:
         global data
-        data = finput.read(sz)
+        data = finput.read()
         n = len(data)
         if n == 0:
             break
