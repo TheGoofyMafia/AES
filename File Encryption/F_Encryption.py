@@ -4,7 +4,7 @@ import os
 from Padding import pad
 abc = 0.1
 fsz = os.path.getsize('/Users/goofy/Desktop/test.txt')
-with open('big_test.txt') as finput:
+with open('Testing/pdf_test.pdf') as finput:
     while True:
         global data
         data = finput.read()

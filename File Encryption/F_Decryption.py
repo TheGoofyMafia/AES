@@ -7,7 +7,7 @@ with open('encfile.txt', 'rb') as fin:
 
 
 
-    with open('verfile', 'w') as fout:
+    with open('Testing/verfile', 'w') as fout:
         while True:
             encd1 = fin.read()
             n = len(encd1)
