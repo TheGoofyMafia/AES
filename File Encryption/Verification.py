@@ -1,5 +1,5 @@
 with open('verfile') as decrypted:
-    with open('test.txt') as original:
+    with open('big_test.txt') as original:
         text = original.read()
         final = decrypted.read()
         if text ==  final:
