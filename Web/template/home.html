@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    	function readURL(input) {
+  			if (input.files && input.files[0]) {
+    			var reader = new FileReader();
+    
+    			reader.onload = function(e) {
+     				var fileName = e.target.files[0].name;
+            		alert('The file "' + fileName +  '" has been selected.');
+   				}
+
+   				//reader.readAsDataURL(input.files[0]);
+    			//document.write("ok");
+    			
+  			}
+		}
+
+		$(document).ready(function(){
+			$("input").change(function(e){
+  				//readURL(this);
+  				var fileName = e.target.files[0].name;
+            	alert('The file "' + fileName +  '" has been selected.');
+            	var reader = new FileReader();
+
+   				var c=reader.readAsDataURL(e.target.files[0]);
+    			document.write(c+"ok");
+  			});
+		});
+
+    </script> -->
+  </head>
+
+  <body>
+  	<!-- title section -->
+    <section>
+    	<div>
+    		PROJECT TITLE
+    	</div>
+    </section>
+    <!-- Title section ends -->
+
+
+
+    <!--description section-->
+    <section>
+    	<div>
+    		About the project
+    	</div>
+    </section>
+    <!-- description section ends -->
+
+    <!-- button -->
+    <!-- <a href="{{ url_for('clicked') }}"> here</a> -->
+    <!-- <input type="file" name="file" action="{{ url_for('clicked') }}"/> -->
+    <!-- <button action="{{ url_for('clicked') }}"> Click here </button> -->
+    <!-- <input type="file" name="file"> -->
+    <form action = "http://localhost:5000/uploader" method="post" enctype="multipart/form-data">
+        <input type = "file" name = "file" />
+        <input type = "submit"/>
+    </form>   
+    <!-- button ends -->
+
+
+  </body>
+</html>
