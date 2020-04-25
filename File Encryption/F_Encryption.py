@@ -1,12 +1,12 @@
 from Crypto.Cipher import AES
+import time
 from init import key,iv
 import os
 from Padding import pad
 abc = 0.1
-fsz = os.path.getsize('/Users/goofy/Desktop/test.txt')
-with open('Testing/pdf_test.pdf') as finput:
+with open('Testing/big_test.txt') as finput:
     while True:
-        global data
+        time1 = time.perf_counter()
         data = finput.read()
         n = len(data)
         if n == 0:
@@ -19,4 +19,5 @@ with open('Testing/pdf_test.pdf') as finput:
             global encd
             encd = aes.encrypt(pad(data, 16))
             fout.write(encd)
+        print('The time taken to execute this program is: ', time.perf_counter() - time1)
 
